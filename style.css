@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #bbb;
+  }
+  
+  .sidebar a:hover {
+    color: #fff;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  #shopping-form {
+    border: 1px solid #444;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #shopping-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #shopping-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  #shopping-form button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  #shopping-form button:hover {
+    background-color: #777;
+  }
+  
+  #shopping-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #shopping-list li {
+    margin-bottom: 8px;
+  }
